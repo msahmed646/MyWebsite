@@ -1,0 +1,168 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Tilt Neon', cursive, Arial, Helvetica, sans-serif;        /*Primary- Arial, Backups- Helvetica, then sans-serif*/
+}
+
+h1{
+    font-size: 5.65rem;       /* 16px = 100% = 1em; rem = root em. Ignores the parent and follows only this sizing*/
+    font-family: 'Sacramento', cursive;
+    margin-top: 50px auto 0 auto;
+    color: #66BFBF;
+    line-height: 1;
+}
+
+h2{
+    font-family: 'Rampart One', cursive;
+    margin: 0;
+    color: #283061;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    color: #11999E;
+}
+
+p{
+    line-height: 2;  
+}
+
+hr{
+    border: dotted;
+    color: #557172;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+a{
+    font-family: 'Tilt Neon', cursive;
+    color: #11999E;
+    margin: 20px 20px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+.top{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px ;
+    
+}
+
+.hi{
+    padding-top: 20px;
+}
+
+.middle{
+    
+    margin: 50px 0;
+    
+}
+
+.bottom{
+    
+    background-color: #66bfbf;
+    margin-bottom: 0px;
+    padding: 50px 0 20px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position:absolute;    /*by setting the position for the .top, we made that the parent,
+                            so, the margin is being set relative to that, instead of the body*/
+    left: 300px;
+    bottom: 300px;
+}
+
+.intro{
+    width: 30%;
+    margin: 10px auto 20px auto;
+}
+
+.skills{
+    margin-top: 20px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+   
+}
+
+.skill-img-1{
+    width: 25%;
+    float: left;            /*to have only a part of the text float, use "clear" class*/
+    margin-right: 30px;
+}
+
+.skill-img-2{
+    width: 25%;
+    float: right;   
+    margin-left: 30px;
+}
+
+.curr-interests{
+    margin-top: 70px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 40px auto;
+}
+
+.footer-link{
+    color: #11999E;
+}
+
+.btn {
+
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Tilt Neon', cursive;
+    color: #ebebeb;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+#asp-dev{
+    font-family: 'Tilt Neon', cursive, Arial, Helvetica, sans-serif;
+    
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
