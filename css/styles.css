@@ -76,14 +76,14 @@ a:hover{
 .top-cloud{
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 80px;
 }
 
 .bottom-cloud{
     position:absolute;    /*by setting the position for the .top, we made that the parent,
                             so, the margin is being set relative to that, instead of the body*/
     left: 300px;
-    bottom: 300px;
+    bottom: 60px;
 }
 
 .intro{
