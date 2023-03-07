@@ -82,10 +82,14 @@ a:hover{
 .bottom-cloud{
     position:absolute;    /*by setting the position for the .top, we made that the parent,
                             so, the margin is being set relative to that, instead of the body*/
-    left: 300px;
+    left: 200px;
     bottom: 60px;
 }
 
+#name{
+    color: rgb(107, 125, 130);
+    text-decoration: wavy;
+}
 .intro{
     width: 30%;
     margin: 10px auto 20px auto;
